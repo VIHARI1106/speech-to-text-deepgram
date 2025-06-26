@@ -21,7 +21,7 @@ startBtn.onclick = async () => {
     const response = await fetch("https://api.deepgram.com/v1/listen", {
       method: "POST",
       headers: {
-        "Authorization": "Token 9decfe1d6019a91e281090b83630d3762169c83f",
+        "Authorization": "Token YOUR_DEEPGRAM_API_KEY",
         "Content-Type": "audio/wav"
       },
       body: arrayBuffer
