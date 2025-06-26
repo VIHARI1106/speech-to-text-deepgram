@@ -1,42 +1,32 @@
 # 🎤 Speech to Text with Deepgram
 
-This project is a simple web app that uses the **Deepgram Speech-to-Text API** to convert voice input into live text transcription.
+This is a simple web application that converts speech to text using the Deepgram API.
 
-## 🔧 Tech Stack
+## 🚀 Features
+
+- Start & stop voice recording
+- Converts audio to text in real-time
+- Displays transcription in the browser
+
+## 💻 Tech Stack
+
 - HTML
 - JavaScript
-- Deepgram API
+- Deepgram Speech-to-Text API
 
-## 🚀 How It Works
-1. Click **Start Recording**
-2. Speak into your microphone
-3. Click **Stop Recording**
-4. The app sends your audio to Deepgram
-5. Transcribed text is shown below
+## 🛠️ How to Run
 
-## 📂 Files Included
-- `index.html`: Frontend UI
-- `script.js`: Main logic and Deepgram API call
-- `style.css`: Optional styling
+1. Clone or download this repository
+2. Open `index.html` in any modern browser
+3. Click **Start Recording**, speak, then click **Stop Recording**
+4. You’ll see your transcribed speech below the buttons
 
-## 🛠️ Setup Instructions
-
-1. Clone or download this repo
-2. Open `index.html` in your browser
-3. Start recording and see real-time transcription!
-
-### 🔑 Deepgram API Key Used:
-9decfe1d6019a91e281090b83630d3762169c83f
-
-yaml
-Copy code
-
-> ⚠️ You can generate your own free API key from [https://console.deepgram.com](https://console.deepgram.com)
-
----
-
-## 🌐 Live Demo
-(https://vihari1106.github.io/speech-to-text-deepgram/)
-
----
-
+> ⚠️ **Important:**  
+> For security, the Deepgram API key has been removed from the public code.  
+> To use this app:
+> - Sign up at [https://console.deepgram.com](https://console.deepgram.com)
+> - Generate a free API key
+> - Replace the placeholder in `script.js`:
+> ```js
+> "Authorization": "Token YOUR_DEEPGRAM_API_KEY",
+> ```
